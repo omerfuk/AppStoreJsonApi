@@ -18,6 +18,7 @@
 		DE762A942860E3BE00C6A024 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE762A932860E3BE00C6A024 /* SearchResultCell.swift */; };
 		DE762A972860ECC000C6A024 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE762A962860ECC000C6A024 /* UIView+Layout.swift */; };
 		DE762A992860F16200C6A024 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE762A982860F16200C6A024 /* VerticalStackView.swift */; };
+		DECB5A2A2862471F00DC44BB /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECB5A292862471F00DC44BB /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DE762A932860E3BE00C6A024 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		DE762A962860ECC000C6A024 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		DE762A982860F16200C6A024 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		DECB5A292862471F00DC44BB /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		DE762A782860CCC000C6A024 /* AppStoreJsonApi */ = {
 			isa = PBXGroup;
 			children = (
+				DECB5A282862471200DC44BB /* Model */,
 				DE762A952860EC4A00C6A024 /* Helpers */,
 				DE762A922860E3A500C6A024 /* Views */,
 				DE762A8F2860D9E300C6A024 /* Controller */,
@@ -104,6 +107,14 @@
 				DE762A982860F16200C6A024 /* VerticalStackView.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DECB5A282862471200DC44BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DECB5A292862471F00DC44BB /* SearchResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE762A8E2860CD2600C6A024 /* BaseTabBarController.swift in Sources */,
+				DECB5A2A2862471F00DC44BB /* SearchResult.swift in Sources */,
 				DE762A912860DA2400C6A024 /* AppsSearchController.swift in Sources */,
 				DE762A7E2860CCC100C6A024 /* ViewController.swift in Sources */,
 				DE762A7A2860CCC000C6A024 /* AppDelegate.swift in Sources */,
